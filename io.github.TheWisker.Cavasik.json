@@ -78,6 +78,10 @@
                     "type" : "archive",
                     "url" : "https://github.com/TheWisker/Cavasik/archive/refs/tags/v2.0.1.tar.gz",
                     "sha256": "c9cd48626a5623a764ebe3844540871634fe5d96cc0f2f7d898ce7ee2482a5ef"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
 	      }
