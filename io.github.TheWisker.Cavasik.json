@@ -75,8 +75,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/TheWisker/Cavasik/archive/refs/tags/v3.1.1.tar.gz",
-          "sha256": "77698e1a359c8766d0c72cf8e4b8b572ea3085cb33316c0483ac96eedd821b4e"
+          "url": "https://github.com/TheWisker/Cavasik/archive/refs/tags/v3.1.2.tar.gz",
+          "sha256": "9f6aa24cf28ea53d6c2714efb242b6630e1895f61e5ad59e89bfffcc2f1828bd"
         }
       ]
     }
