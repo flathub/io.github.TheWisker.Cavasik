@@ -49,8 +49,8 @@
         {
           "type": "git",
           "url": "https://github.com/karlstav/cava.git",
-          "tag": "0.8.3",
-          "commit": "746a3b1e6021e383aea9d0000f49d71fb24e1856"
+          "tag" : "0.10.4",
+          "commit" : "1800ced16ea38ce630cd6de938295c8f85ccf722"
         }
       ]
     },
@@ -75,12 +75,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/TheWisker/Cavasik/archive/refs/tags/v2.0.1.tar.gz",
-          "sha256": "c9cd48626a5623a764ebe3844540871634fe5d96cc0f2f7d898ce7ee2482a5ef"
-        },
-        {
-          "type": "patch",
-          "path": "fix_appdata.patch"
+          "url": "https://github.com/TheWisker/Cavasik/archive/refs/tags/v3.1.1.tar.gz",
+          "sha256": "005e2dbcbcafacbe93bfc79fadd7b6a63eb66f95c6b330e5f67dd97473286908"
         }
       ]
     }
