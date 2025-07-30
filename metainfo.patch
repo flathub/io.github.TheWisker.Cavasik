@@ -1,0 +1,26 @@
+diff --git a/assets/io.github.TheWisker.Cavasik.metainfo.xml.in b/assets/io.github.TheWisker.Cavasik.metainfo.xml.in
+index 5b165a5..b1757e4 100644
+--- a/assets/io.github.TheWisker.Cavasik.metainfo.xml.in
++++ b/assets/io.github.TheWisker.Cavasik.metainfo.xml.in
+@@ -11,7 +11,7 @@
+     <ul>
+       <li>Five normal drawing modes!</li>
+       <li>Two circle drawing modes!</li>
+-      <li>Three mirror drawing modes!</li>
++      <li>Five mirror drawing modes!</li>
+       <li>Four drawing directions!</li>
+       <li>Customizable LibAdwaita interface!</li>
+       <li>Set a single color or up to a 10 color linear gradient for background and foreground!</li>
+diff --git a/io.github.TheWisker.Cavasik.json b/io.github.TheWisker.Cavasik.json
+index 8d01d60..d114efe 100644
+--- a/io.github.TheWisker.Cavasik.json
++++ b/io.github.TheWisker.Cavasik.json
+@@ -8,8 +8,6 @@
+         "--share=ipc",
+         "--socket=wayland",
+         "--socket=fallback-x11",
+-		"--filesystem=xdg-config/cavasik",
+-		"--own-name=io.github.TheWisker.Cavasik",
+         "--socket=pulseaudio",
+         "--device=dri"
+     ],
