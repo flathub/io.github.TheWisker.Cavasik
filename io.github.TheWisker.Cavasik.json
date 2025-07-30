@@ -77,6 +77,10 @@
           "type": "archive",
           "url": "https://github.com/TheWisker/Cavasik/archive/refs/tags/v3.2.0.tar.gz",
           "sha256": "503625c47d165f0b461b2e1198b14c0aff281ecb455ef1cfb37faa4c7f27f9e1"
+        },
+        {
+            "type" : "patch",
+            "path": "metainfo.patch"
         }
       ]
     }
