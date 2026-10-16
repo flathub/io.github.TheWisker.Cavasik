@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.TheWisker.Cavasik",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
   "command": "cavasik",
   "finish-args": [
@@ -38,7 +38,8 @@
         {
           "type": "git",
           "url": "https://github.com/ndevilla/iniparser.git",
-          "commit": "deb85ad4936d4ca32cc2260ce43323d47936410d"
+          "commit": "deb85ad4936d4ca32cc2260ce43323d47936410d",
+          "disable-lfs": true
         }
       ]
     },
@@ -51,6 +52,12 @@
           "url": "https://github.com/karlstav/cava.git",
           "tag" : "0.10.4",
           "commit" : "1800ced16ea38ce630cd6de938295c8f85ccf722"
+        },
+        {
+          "type": "shell",
+          "commands": [
+            "sed -i 's/AX_CHECK_GL/true/g' configure.ac"
+          ]
         }
       ]
     },
